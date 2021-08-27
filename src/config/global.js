@@ -1,11 +1,10 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Venta consultiva de productos financieros',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+      'El programa de venta consultiva busca formar asesores integrales, quienes, basados en esta metodología, puedan ser más competitivos en un mundo altamente tecnológico y enfocado a los negocios virtuales. Es necesario brindar un enfoque diferencial entre el tipo de venta tradicional y la venta consultiva para poder enfocarse en un tipo de venta de productos de manera digital y hacer énfasis en el e-commerce.',
+    imagenBannerPrincipal: require('@/assets/curso/portada.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-portada.png'),
   },
   menuPrincipal: {
     menu: [
