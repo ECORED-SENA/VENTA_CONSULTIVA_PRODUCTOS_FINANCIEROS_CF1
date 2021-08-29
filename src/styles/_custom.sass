@@ -1,0 +1,156 @@
+
+.float-layout-container
+  &:after
+    content: ''
+    clear: both
+    display: table
+
+  .cajon
+    float: left
+    width: 60%
+    margin-right: 2%
+    margin-bottom: 2%
+
+    @media (max-width: $bp-max-md)
+      width: 46%
+
+  .img-text
+    display: inline
+    width: 35%
+    float: right
+    margin-left: 2%
+    margin-bottom: 2%
+
+    @media (max-width: $bp-max-md)
+      width: 50%
+
+.banner-row
+  position: relative
+  &> div
+    position: relative
+  &:before
+    content: ''
+    display: block
+    width: 100%
+    padding-top: 25%
+    position: absolute
+    background-color: #F6F6F6
+
+  &__texto
+    &:before
+      content: ''
+      display: block
+      height: 100%
+      width: 0px
+      position: absolute
+      left: -12px
+      border-left: 1px solid $color-primario
+
+.text-300
+  font-weight: 300
+
+.tarjeta.color-secundario
+  background-color: #C5F9FC !important
+.tarjeta.color-secundario--claro
+  background-color: #E2FCFF !important
+.tarjeta.color-acento-contenido
+  background-color: #D1D4FF !important
+
+.cajon.color-acento-contenido
+  background-color: #F5F2FF !important
+
+.slyder-a
+  padding-bottom: 60px
+  &__btn
+    &--sigt, &--atrs
+      top: initial
+      bottom: -25px
+
+    &--sigt
+      right: 0px
+
+    &--atrs
+      left: 0px
+
+  &__bullets
+    bottom: 15px
+
+.separador-vertical
+  display: flex
+  justify-content: center
+  height: 100%
+
+  &:after
+    content: ''
+    display: block
+    height: 100%
+    width: 1px
+    background-color: $color-primario
+
+.half-img
+  position: relative
+  padding-top: 15%
+  div
+    position: relative
+  > div
+    position: absolute
+    width: 100%
+    top: 0
+
+.half-img__container
+  margin-bottom: 10% !important
+
+.tarjeta-avatar .tarjeta
+  width: 100%
+
+.tarjeta.gradiente
+  background: rgb(37,44,161)
+  background: -moz-linear-gradient(0deg, rgba(37,44,161,1) 0%, rgba(140,109,242,1) 100%)
+  background: -webkit-linear-gradient(0deg, rgba(37,44,161,1) 0%, rgba(140,109,242,1) 100%)
+  background: linear-gradient(0deg, rgba(37,44,161,1) 0%, rgba(140,109,242,1) 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#252ca1",endColorstr="#8c6df2",GradientType=1)
+
+.arrow-down
+  width: 0
+  height: 0
+  border-left: 20px solid transparent
+  border-right: 20px solid transparent
+  
+  border-top: 20px solid #f00
+
+.tarjeta-selected
+  .tarjeta
+    cursor: pointer
+    position: relative
+
+  .selected
+    &:after
+      content: ''
+      display: block
+      width: 0
+      height: 0
+      border-left: 20px solid transparent
+      border-right: 20px solid transparent
+      border-top: 20px solid
+      position: absolute
+      top: 100%
+      left: 50%
+      transform: translateX(-50%)
+
+  .color-acento-contenido.selected
+    &:after
+      border-top-color: #D1D4FF
+  .color-secundario.selected
+    &:after
+      border-top-color: #C5F9FC
+
+
+.text-red
+  color: red
+
+.tabs-a.color-acento-contenido
+  .tabs-a__tab__selected
+    color: $white !important
+
+.curso-main-container > .container
+  overflow: hidden
