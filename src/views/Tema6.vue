@@ -3,12 +3,12 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal(data-aos="fade-up")
+    .titulo-principal(data-aos="fade")
       .titulo-principal__numero
         span 6
       h1 Programación neurolingüística (PNL) y motivacional
 
-    .row.justify-content-center.align-items-center(data-aos="fade-up")
+    .row.justify-content-center.align-items-center(data-aos="fade")
       .col-6.col-lg-6.mb-4.mb-lg-0.pe-0
         img(src='@/assets/curso/t6-01.svg')
       .col-lg.ps-2.ps-lg-0

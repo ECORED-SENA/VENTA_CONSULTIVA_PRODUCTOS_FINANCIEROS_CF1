@@ -44,7 +44,7 @@
           br
           b Acción. 
           | Cuando ya el cliente pasa a comprar o adquirir lo que requiere. 
-  p.text-center.text-red Click en cada una para mostrar información 
+
 </template>
 
 <script>

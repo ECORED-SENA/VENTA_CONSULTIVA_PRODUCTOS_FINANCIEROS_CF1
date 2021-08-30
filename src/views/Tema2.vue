@@ -3,16 +3,16 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal(data-aos="fade-up")
+    .titulo-principal(data-aos="fade")
       .titulo-principal__numero
         span 2
       h1 Planeación y organización de la venta consultiva
 
-    p.mb-5(data-aos="fade-up") La planeación es fundamental para conseguir los objetivos de ventas. Los vendedores son personas que necesitan vender sus productos o servicios y para ello deben encontrar personas o empresas que tengan una necesidad o problema por resolver. En la siguiente imagen, se muestran algunos principios que hacen parte clave de la venta consultiva.
+    p.mb-5(data-aos="fade") La planeación es fundamental para conseguir los objetivos de ventas. Los vendedores son personas que necesitan vender sus productos o servicios y para ello deben encontrar personas o empresas que tengan una necesidad o problema por resolver. En la siguiente imagen, se muestran algunos principios que hacen parte clave de la venta consultiva.
 
-    .row.justify-content-center.mb-4(data-aos="fade-up")
+    .row.justify-content-center.mb-4(data-aos="fade")
       .col-12.text-center.mb-5
-        h3 Principios clave para la venta Consultiva
+        h3 Principios clave para la venta consultiva
       .col-md-6.col-xl-5.mb-4
         .tarjeta.color-secundario.p-3
           .row.align-items-center
@@ -29,7 +29,7 @@
               img(src='@/assets/curso/t2-ico-06.svg')
             .col
               .h3 Actitud
-              p.mb-0 La intención de ayudar cuenta más que la técnica.
+              p.mb-0 La actitud y la energía influyen y contagian.
 
       .col-md-6.col-xl-5.mb-4
         .tarjeta.color-secundario.p-3
@@ -73,7 +73,7 @@
             .col-4
               img(src='@/assets/curso/t2-ico-04.svg')
             .col
-              .h3 Diagnostico
+              .h3 Diagnóstico
               p.mb-0 ¡No adivinar! Diagnosticar antes de prescribir.
 
       .col-md-6.col-xl-5.mb-4
@@ -103,11 +103,11 @@
               .h3 Valor
               p.mb-0 Las mejores relaciones de negocios están basadas en el valor.
     
-    .cajon.color-acento-contenido.p-5.mb-5(data-aos="fade-up")
+    .cajon.color-acento-contenido.p-5.mb-5(data-aos="fade")
       p Es así como esta información permite definir los pasos que se deben seguir para conseguir los objetivos de una manera organizada, gestionar el tiempo y enfocarse en lo que es importante. 
       p.mb-0 Se considera que el perfil de un vendedor debe tener unas características a desarrollar, como son: generar buena empatía con el cliente, entender las necesidades, deseos y expectativas del consumidor; se especializa en obtener información de los consumidores para poder ofrecer un mejor servicio y es experto en el manejo de canales informáticos dedicados a ventas y publicidad. Y en ese proceso, debe:
 
-    .tarjeta.tarjeta--gris.px-5.pt-5.pb-3.mb-5(data-aos="fade-up")
+    .tarjeta.tarjeta--gris.px-5.pt-5.pb-3.mb-5(data-aos="fade")
 
       SlyderA
         .row
@@ -142,7 +142,7 @@
           .col-md-6
             img(src='@/assets/curso/t2-img-04.jpg')
 
-    .row.justify-content-center.align-items-stretch(data-aos="fade-up")
+    .row.justify-content-center.align-items-stretch(data-aos="fade")
       .col-6.col-lg-4.mb-4.mb-lg-0
         img(src='@/assets/curso/t2-01.svg')
       .col-1.d-none.d-lg-block
@@ -152,14 +152,14 @@
           b Los clientes son la clave para que cualquier negocio pueda alcanzar el éxito. 
           | Si se conoce el comportamiento de los consumidores, es posible mejorar su experiencia de compra y así responder mejor a sus expectativas, recordando que es muy importante tener en cuenta la parte emocional del cliente, para marcar la diferencia y crear mayor interés en ellos.
 
-    Separador(data-aos="fade-up")
+    Separador(data-aos="fade")
 
-    #2-1.titulo-segundo(data-aos="fade-up")
+    #2-1.titulo-segundo(data-aos="fade")
       h2 2.1 Segmentación del mercado objetivo
     
-    p.mb-5(data-aos="fade-up") La segmentación hace referencia a una forma de organizar a los clientes en grupos más pequeños, según el tipo, y estos segmentos se deben caracterizar por atributos particulares, donde intervienen factores claves como: 
+    p.mb-5(data-aos="fade") La segmentación hace referencia a una forma de organizar a los clientes en grupos más pequeños, según el tipo, y estos segmentos se deben caracterizar por atributos particulares, donde intervienen factores claves como: 
 
-    .cajon.color-acento-contenido.p-5.mb-5(data-aos="fade-up")
+    .cajon.color-acento-contenido.p-5.mb-5(data-aos="fade")
       .row.justify-content-center.align-items-center
         .col-md.mb-4.mb-md-0
           ul.lista-ul--color
@@ -182,81 +182,85 @@
           P Es necesario tener en cuenta que lo importante no son las diferencias superficiales, sino aquello que realmente afecta el comportamiento de compra.
           P.mb-0 Se hace mención al perfil que representa un vendedor consultor, como una figura que va acorde con los mercados de hoy, donde se requieren nuevas actitudes, habilidades y conocimientos, como son:
 
-        .col-6.col-md-3
+        .col-5
           img(src='@/assets/curso/t2-002.svg')
 
-    TabsA.color-acento-contenido.mb-5(data-aos="fade-up")
-      .tarjeta.color-secundario--claro.p-4(titulo="Conocer el proceso de compra")
-        h4 Conocer el proceso de compra
-        p El proceso de compra siempre se encuentra en manos del cliente, por tal motivo, es importante comprenderlo para generar una empatía con él.
-        .row
-          .col-6
-            img(src='@/assets/curso/t2-02.svg')
+    .row.justify-content-center.mb-5
+      .col-xl-10
+        TabsA.color-acento-contenido.mb-5(data-aos="fade")
+          .tarjeta.color-secundario--claro.p-4(titulo="Conocer el proceso de compra")
+            h4 Conocer el proceso de compra
+            p El proceso de compra siempre se encuentra en manos del cliente, por tal motivo, es importante comprenderlo para generar una empatía con él.
+            .row
+              .col-6
+                img(src='@/assets/curso/t2-02.svg')
 
-      .tarjeta.color-secundario--claro.p-4(titulo="Ejercer su rol como consultor")
-        h4 Ejercer su rol como consultor
-        p Al tener claro su rol o papel en el proceso, el vendedor se potencializa como un experto y brinda la mejor asesoría posible.
-        .row
-          .col-6
-            img(src='@/assets/curso/t2-03.svg')
+          .tarjeta.color-secundario--claro.p-4(titulo="Ejercer su rol como consultor")
+            h4 Ejercer su rol como consultor
+            p Al tener claro su rol o papel en el proceso, el vendedor se potencializa como un experto y brinda la mejor asesoría posible.
+            .row
+              .col-6
+                img(src='@/assets/curso/t2-03.svg')
 
-      .tarjeta.color-secundario--claro.p-4(titulo="Mantener la inteligencia emocional")
-        h4 Mantener la inteligencia emocional
-        p Es importante tener la capacidad de sentir, comprender y entender las necesidades de un consumidor, para así alinearlas con el producto o servicio y lograr una venta efectiva.
-        .row
-          .col-6
-            img(src='@/assets/curso/t2-04.svg')
+          .tarjeta.color-secundario--claro.p-4(titulo="Mantener la inteligencia emocional")
+            h4 Mantener la inteligencia emocional
+            p Es importante tener la capacidad de sentir, comprender y entender las necesidades de un consumidor, para así alinearlas con el producto o servicio y lograr una venta efectiva.
+            .row
+              .col-6
+                img(src='@/assets/curso/t2-04.svg')
 
-      .tarjeta.color-secundario--claro.p-4(titulo="Hacer las preguntas adecuada")
-        h4 Hacer las preguntas adecuada
-        p Cuando se realizan las preguntas adecuadas, es posible romper el hielo y dejar que sea el mismo cliente quien brinde mayor y mejor información sobre sus necesidades. Es de gran importancia establecer una conversación fluida, que brinde la información necesaria para lograr una venta exitosa.
-        .row
-          .col-6
-            img(src='@/assets/curso/t2-05.svg')
+          .tarjeta.color-secundario--claro.p-4(titulo="Hacer las preguntas adecuadas")
+            h4 Hacer las preguntas adecuada
+            p Cuando se realizan las preguntas adecuadas, es posible romper el hielo y dejar que sea el mismo cliente quien brinde mayor y mejor información sobre sus necesidades. Es de gran importancia establecer una conversación fluida, que brinde la información necesaria para lograr una venta exitosa.
+            .row
+              .col-6
+                img(src='@/assets/curso/t2-05.svg')
 
-      .tarjeta.color-secundario--claro.p-4(titulo="No mostrar urgencia por el cierre")
-        h4 No mostrar urgencia por el cierre
-        p Todo el buen proceso de negociación que se haya realizado con un cliente puede perderse si se está demasiado ansioso por cerrarla. No se debe ser demasiado insistente en que tome una decisión, porque podría lograrse el efecto no deseado de dejar de lado su interés de compra, o lo que es peor, que se decida a comprar en la competencia.
-        .row
-          .col-6
-            img(src='@/assets/curso/t2-06.svg')
+          .tarjeta.color-secundario--claro.p-4(titulo="No mostrar urgencia por el cierre")
+            h4 No mostrar urgencia por el cierre
+            p Todo el buen proceso de negociación que se haya realizado con un cliente puede perderse si se está demasiado ansioso por cerrarla. No se debe ser demasiado insistente en que tome una decisión, porque podría lograrse el efecto no deseado de dejar de lado su interés de compra, o lo que es peor, que se decida a comprar en la competencia.
+            .row
+              .col-6
+                img(src='@/assets/curso/t2-06.svg')
 
-      .tarjeta.color-secundario--claro.p-4(titulo="La formación del vendedor consultor")
-        h4 La formación del vendedor consultor
-        p Para llegar a ser un vendedor consultor,  para formarse bien en este excelente mundo de las ventas y ser exitoso, es necesario estar a la vanguardia de las nuevas técnicas de ventas y de los cambios que imponen el mercado y la modernidad tecnológica.
-        .row
-          .col-6
-            img(src='@/assets/curso/t2-07.svg')
+          .tarjeta.color-secundario--claro.p-4(titulo="La formación del vendedor consultor")
+            h4 La formación del vendedor consultor
+            p Para llegar a ser un vendedor consultor, formarse bien en este excelente mundo de las ventas y ser exitoso, es necesario estar a la vanguardia de las nuevas técnicas de ventas y de los cambios que imponen el mercado y la modernidad tecnológica.
+            .row
+              .col-6
+                img(src='@/assets/curso/t2-07.svg')
 
-    Separador(data-aos="fade-up")
+    Separador(data-aos="fade")
 
-    #2-2.titulo-segundo(data-aos="fade-up")
+    #2-2.titulo-segundo(data-aos="fade")
       h2 2.2 Presentación del producto al objetivo establecido
 
-    .cajon.color-acento-contenido.p-5.half-img__container(data-aos="fade-up")
+    .cajon.color-acento-contenido.p-5.half-img__container(data-aos="fade")
       p Una vez definido el mercado a trabajar, se debe hacer la presentación o abarcar dicho mercado. Esto se puede realizar por medio de las herramientas que la venta consultiva brinda y que ya se han visto.
       .half-img
         .row
           .col-6
             img(src='@/assets/curso/t2-08.svg')
 
-    Separador(data-aos="fade-up")
+    Separador(data-aos="fade")
 
-    #2-3.titulo-segundo(data-aos="fade-up")
+    #2-3.titulo-segundo(data-aos="fade")
       h2 2.3 Herramientas para desarrollar los diferentes tipos de ventas
 
-    p.mb-5(data-aos="fade-up") Para impulsar las ventas en las empresas, se debe contar con herramientas adecuadas para ofrecer sus productos o servicios, logrando destacar las ventajas competitivas de las mismas, facilitando la comunicación con los clientes y agilizando procesos comerciales de venta. Por lo tanto, a continuación, se identifican algunas de las herramientas que se utilizan para los diferentes tipos de ventas.
+    p.mb-5(data-aos="fade") Para impulsar las ventas en las empresas, se debe contar con herramientas adecuadas para ofrecer sus productos o servicios, logrando destacar las ventajas competitivas de las mismas, facilitando la comunicación con los clientes y agilizando procesos comerciales de venta. Por lo tanto, a continuación, se identifican algunas de las herramientas que se utilizan para los diferentes tipos de ventas.
 
-    .row.mb-5(data-aos="fade-up")
+    .row.mb-5(data-aos="fade")
       .col-md-6.col-xl.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/t2-09.svg' alt='AvatarTop')
           .tarjeta.color-acento-contenido
             .p-4
               h3.pt-3.text-center HERRAMIENTAS DIGITALES
-              p Wa business
+              p 
+                em Wa business
                 br
-                | Landing personal
+                em Landing 
+                | personal
 
       .col-md-6.col-xl.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -266,7 +270,8 @@
               h3.pt-3.text-center HERRAMIENTAS DE PLANEACIÓN
               p Mapa de relaciones
                 br
-                | Funnel de venta
+                em Funnel 
+                | de venta
 
       .col-md-6.col-xl.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -274,9 +279,10 @@
           .tarjeta.color-acento-contenido
             .p-4
               h3.pt-3.text-center HERRAMIENTAS DE PRODUCTIVIDAD
-              p Pipeline
+              p 
+                em Pipeline
                 br
-                | Calendar
+                em Calendar
                 br
                 | Listas de tareas
 
@@ -286,17 +292,18 @@
           .tarjeta.tarjeta.color-secundario
             .p-4
               h3.pt-3.text-center HERRAMIENTAS DE PERSUASIÓN
-              p Storytelling
+              p 
+                em Storytelling
                 br
                 | Método Harvard
                 br
                 | Principios de influencia
 
-    p.mb-5(data-aos="fade-up") Las técnicas de ventas son los métodos que aplican los vendedores para vender de una manera más eficiente, con el propósito de alcanzar unos objetivos de venta en una empresa. Se hace necesario que realice la siguiente lectura:
+    p.mb-5(data-aos="fade") Las técnicas de ventas son los métodos que aplican los vendedores para vender de una manera más eficiente, con el propósito de alcanzar unos objetivos de venta en una empresa. Se hace necesario que realice la siguiente lectura:
 
-    .row.justify-content-center.mb-5(data-aos="fade-up")
-      .col-md-8
-        .tarjeta.gradiente.p-5
+    .row.justify-content-center.mb-5(data-aos="fade")
+      .col-md-10
+        .tarjeta.gradiente.px-5.py-4
           .row.justify-content-center.align-items-center
             .col-6.col-md-2.mb-4.mb-md-0
               img(src='@/assets/curso/t2-13.svg')
@@ -315,17 +322,17 @@
                 i.fas.fa-book
 
 
-    p(data-aos="fade-up") Aunque es evidente que los ciclos de compra y venta presentan algunas diferencias, haciendo un referente a la llegada del Internet, es posible observar que las cosas han cambiado: la empresa trabaja el ciclo de venta, preguntándose qué pasa, cuál es el mejor momento para contactar con sus clientes potenciales, cómo dirigirse a ellos, cómo debe argumentar los beneficios de un determinado producto.
-    p.mb-5(data-aos="fade-up") Por su parte, el ciclo de compra es algo más libre, porque arranca en el momento en que el usuario se da cuenta de que tiene una necesidad, y acaba cuando este adquiere una solución a su problema. 
+    p(data-aos="fade") Aunque es evidente que los ciclos de compra y venta presentan algunas diferencias, haciendo un referente a la llegada del Internet, es posible observar que las cosas han cambiado: la empresa trabaja el ciclo de venta, preguntándose qué pasa, cuál es el mejor momento para contactar con sus clientes potenciales, cómo dirigirse a ellos, cómo debe argumentar los beneficios de un determinado producto.
+    p.mb-5(data-aos="fade") Por su parte, el ciclo de compra es algo más libre, porque arranca en el momento en que el usuario se da cuenta de que tiene una necesidad, y acaba cuando este adquiere una solución a su problema. 
       b Observe más en detalle las partes fundamentales de un concepto de venta.
 
-    TarjetaSelected.mb-5(data-aos="fade-up")
+    TarjetaSelected.mb-5(data-aos="fade")
 
-    p.mb-5(data-aos="fade-up") A continuación, se presentan diez (10) herramientas que es necesario incorporar en la cotidianidad como vendedores, herramientas que le ayudarán a ser más productivo, más efectivo, a mostrarse como ese profesional que siempre ha sabido que es.
+    p.mb-5(data-aos="fade") A continuación, se presentan diez (10) herramientas que es necesario incorporar en la cotidianidad como vendedores, herramientas que le ayudarán a ser más productivo, más efectivo, a mostrarse como ese profesional que siempre ha sabido que es.
 
-    .row.justify-content-center(data-aos="fade-up")
+    .row.justify-content-center(data-aos="fade")
       .col-md-10
-        .tarjeta.gradiente.p-5
+        .tarjeta.gradiente.px-5
           .row.justify-content-center.align-items-center
             .col-6.col-md-2.mb-4.mb-md-0
               img(src='@/assets/curso/t2-13.svg')
