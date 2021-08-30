@@ -210,7 +210,7 @@
                 img(src='@/assets/curso/t2-04.svg')
 
           .tarjeta.color-secundario--claro.p-4(titulo="Hacer las preguntas adecuadas")
-            h4 Hacer las preguntas adecuada
+            h4 Hacer las preguntas adecuadas
             p Cuando se realizan las preguntas adecuadas, es posible romper el hielo y dejar que sea el mismo cliente quien brinde mayor y mejor información sobre sus necesidades. Es de gran importancia establecer una conversación fluida, que brinde la información necesaria para lograr una venta exitosa.
             .row
               .col-6

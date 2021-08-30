@@ -107,7 +107,7 @@ export default {
         nombreRuta: 'tema8',
         icono: 'far fa-file-alt',
         numero: '8',
-        titulo: 'E-commerce',
+        titulo: '<em>E-commerce</em>',
         desarrolloContenidos: true,
       },
     ],
