@@ -255,7 +255,7 @@
           img(src='@/assets/curso/t2-09.svg' alt='AvatarTop')
           .tarjeta.color-acento-contenido
             .p-4
-              h3.pt-3.text-center HERRAMIENTAS DIGITALES
+              h3.pt-3.text-center Herramientas digitales
               p 
                 em Wa business
                 br
@@ -267,7 +267,7 @@
           img(src='@/assets/curso/t2-10.svg' alt='AvatarTop')
           .tarjeta.tarjeta.color-secundario
             .p-4
-              h3.pt-3.text-center HERRAMIENTAS DE PLANEACIÓN
+              h3.pt-3.text-center Herramientas de planeación
               p Mapa de relaciones
                 br
                 em Funnel 
@@ -278,7 +278,7 @@
           img(src='@/assets/curso/t2-11.svg' alt='AvatarTop')
           .tarjeta.color-acento-contenido
             .p-4
-              h3.pt-3.text-center HERRAMIENTAS DE PRODUCTIVIDAD
+              h3.pt-3.text-center Herramientas de productividad
               p 
                 em Pipeline
                 br
@@ -291,7 +291,7 @@
           img(src='@/assets/curso/t2-12.svg')
           .tarjeta.tarjeta.color-secundario
             .p-4
-              h3.pt-3.text-center HERRAMIENTAS DE PERSUASIÓN
+              h3.pt-3.text-center Herramientas de persuasión
               p 
                 em Storytelling
                 br
