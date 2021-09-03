@@ -205,7 +205,7 @@ export default {
     {
       termino: 'Venta digital',
       significado:
-        'es la nueva forma como las empresas desarrollan nuevos negocios, enfocándose en llegar al cliente, usuario o consumidor, por medio de canales digitales, medios online, redes sociales y estrategias en Internet.',
+        'es la nueva forma como las empresas desarrollan nuevos negocios, enfocándose en llegar al cliente, usuario o consumidor, por medio de canales digitales, medios <em>online</em>, redes sociales y estrategias en Internet.',
     },
   ],
   complementario: [
@@ -348,7 +348,11 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Milady Tatiana Villamil Castellanos',
+        nombre: [
+          'Milady Tatiana Villamil Castellanos',
+          'Álvaro Andres Angarita Ramirez',
+          'Daniel Felipe Varón Molina',
+        ],
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },

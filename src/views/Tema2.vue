@@ -332,7 +332,7 @@
 
     .row.justify-content-center(data-aos="fade")
       .col-md-10
-        .tarjeta.gradiente.px-5
+        .tarjeta.gradiente.px-5.py-4
           .row.justify-content-center.align-items-center
             .col-6.col-md-2.mb-4.mb-md-0
               img(src='@/assets/curso/t2-13.svg')

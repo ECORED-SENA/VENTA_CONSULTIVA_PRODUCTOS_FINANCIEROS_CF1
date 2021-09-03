@@ -22,7 +22,7 @@
     p(data-aos="fade") Ambas son válidas y diametralmente opuestas. La tradicional basa su fortaleza de venta en el producto ofrecido, mientras que la consultiva hace énfasis en el vendedor más como un asesor o consultor.
     p(data-aos="fade") Es conveniente adoptar diferentes tipos de ventas consultivas para tener elementos de juicio y poder realizar una venta efectiva. 
     p(data-aos="fade")
-      b A continuación, se estudia cada uno de ellos:
+      b A continuación, se estudia cada uno de los modelos de ventas:
 
     .row.justify-content-center.mb-5(data-aos="fade")
       .col-md-8
